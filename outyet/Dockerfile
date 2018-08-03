@@ -1,2 +1,2 @@
-FROM golang:onbuild
+FROM busybox:latest
 EXPOSE 8080

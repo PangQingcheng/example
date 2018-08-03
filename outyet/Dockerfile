@@ -1,2 +1,2 @@
-FROM busybox:latest
+FROM scratch
 EXPOSE 8080

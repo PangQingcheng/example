@@ -1,0 +1,8 @@
+stages:
+- name: test
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: aaa:latest
+timeout: 60
